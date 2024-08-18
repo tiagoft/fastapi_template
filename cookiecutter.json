@@ -1,0 +1,7 @@
+{
+    "project_name": "NLP APS1",
+    "pckg_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_description": "The workgroup is free to choose a theme of their liking. It is the responsability of the group to find a suitable dataset for that theme. The use case should be described in the README.md file in your repository.",
+    "choosen_port": "9000",
+    "group_members": "group_members"
+}
