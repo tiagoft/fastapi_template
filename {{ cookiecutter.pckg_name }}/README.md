@@ -6,7 +6,7 @@
 
 ```bash
 docker build -t {{ cookiecutter.pckg_name }} .
-docker run -d -p 9000:8888 {{ cookiecutter.pckg_name }}
+docker run -d -p {{ cookiecutter.choosen_port }}:8888 {{ cookiecutter.pckg_name }}
 ```
 
 ## Authors
